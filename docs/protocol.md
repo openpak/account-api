@@ -12,3 +12,7 @@ The account core's gRPC API is defined in `openpak/account/v1/*.proto`:
 | `media.proto` | Media |
 | `moderation.proto` | Moderation |
 | `federation.proto` | Federation |
+
+## Why a separate module
+
+The account core's module is named `openpak/account`, which other repos cannot fetch with `go get`, so each consumer used to carry its own trimmed copy of the generated code. This module holds the full set of messages and services once, with only `grpc` and `protobuf` as dependencies.

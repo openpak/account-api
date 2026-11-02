@@ -35,7 +35,6 @@ go get github.com/openpak/account-api@latest
 
 - [Protocol](docs/protocol.md)
 - [Deploy](docs/deploy.md)
-- [Notes](docs/notes.md)
 
 ## Licence
 
