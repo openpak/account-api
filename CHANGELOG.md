@@ -1,5 +1,9 @@
 # Changelog: account-api
 
+## v0.3.1
+
+Documentation only: `GetPlayHistoryRequest.limit = -1` means every title (account v0.23.0). No wire change.
+
 ## v0.3.0
 
 Language and timezone belong to the account core (card #131, phase 0). New fields, no renumbering: `GetAccountResponse.language = 14`,
